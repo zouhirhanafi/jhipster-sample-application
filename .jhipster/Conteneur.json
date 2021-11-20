@@ -1,0 +1,44 @@
+{
+  "name": "Conteneur",
+  "fields": [
+    {
+      "fieldName": "statut",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateEntree",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "dateSortie",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "zone",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "ligne",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "colonne",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "commentaire",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "conteneur",
+  "dto": "no",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211120064711"
+}

@@ -42,7 +42,9 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Parameter", "Conteneur"],
+    "lastLiquibaseTimestamp": 1637390831000
   },
   "git-provider": "GitHub",
   "git-company": "zouhirhanafi",

@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "conteneur": {
+      "home": {
+        "title": "Conteneurs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Conteneur",
+        "createOrEditLabel": "Create or edit a Conteneur",
+        "notFound": "No Conteneurs found"
+      },
+      "created": "A new Conteneur is created with identifier {{ param }}",
+      "updated": "A Conteneur is updated with identifier {{ param }}",
+      "deleted": "A Conteneur is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Conteneur {{ id }}?"
+      },
+      "detail": {
+        "title": "Conteneur"
+      },
+      "id": "ID",
+      "statut": "Statut",
+      "dateEntree": "Date Entree",
+      "dateSortie": "Date Sortie",
+      "zone": "Zone",
+      "ligne": "Ligne",
+      "colonne": "Colonne",
+      "commentaire": "Commentaire"
+    }
+  }
+}
