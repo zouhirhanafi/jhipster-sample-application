@@ -1,0 +1,66 @@
+
+// id;label;activated;lib_2;lib_3;type_id;val_1;val_2;val_3;ordre
+
+entity Parameter {
+    label String
+    activated Boolean
+	lib2 String
+	lib3 String
+
+	refExterne String
+
+	val1 String
+    val2 String
+	
+    val3 String
+	
+	ordre Integer
+//	lastUpdatedDate ZonedDateTime     //TODO
+}
+
+
+// agent : déclarer une entree - etat : créé 
+// chauffeur : affecter une position - etat : affecté
+
+// agent : déclarer une sortie - etat : attente sortie
+// chauffeur : sortir le conteneur - etat : sortie
+
+// agent : Importer la liste de conteneur à controller - etat : à controller
+// chauffeur : déplacer vers la zone de visite - etat : en controle
+
+// chauffeur : retourner le conteneur - etat : controlé 
+
+// chauffeur : retourner le conteneur - etat : controlé 
+
+// C ("Créé"),
+// A ("Affecté"), 
+// AS ("Attente sortie"), 
+// S ("Sortie"), 
+// AC ("A controlé"), 
+// EN ("En controle"),
+// CC ("Controlé")
+entity Conteneur {
+	statut Integer
+    dateEntree Instant
+	dateSortie ZonedDateTime
+    zone Integer
+    ligne Integer
+    colonne Integer
+	commentaire String
+}
+
+relationship ManyToOne {
+	Parameter{type} to Parameter
+	Parameter{paraent} to Parameter
+}
+
+// =======
+// Options
+// =======
+paginate Parameter with pagination
+paginate Conteneur with infinite-scroll
+filter Parameter, Conteneur
+//search DossierPatient with elasticsearch
+// dto DossierPatient, Prescription, Surveillance with mapstruct
+// Set service options to all 
+service all with serviceClass
