@@ -1,0 +1,34 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "parameter": {
+      "home": {
+        "title": "Parameters",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Parameter",
+        "createOrEditLabel": "Create or edit a Parameter",
+        "notFound": "No Parameters found"
+      },
+      "created": "A new Parameter is created with identifier {{ param }}",
+      "updated": "A Parameter is updated with identifier {{ param }}",
+      "deleted": "A Parameter is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Parameter {{ id }}?"
+      },
+      "detail": {
+        "title": "Parameter"
+      },
+      "id": "ID",
+      "label": "Label",
+      "activated": "Activated",
+      "lib2": "Lib 2",
+      "lib3": "Lib 3",
+      "refExterne": "Ref Externe",
+      "val1": "Val 1",
+      "val2": "Val 2",
+      "val3": "Val 3",
+      "ordre": "Ordre",
+      "type": "Type",
+      "paraent": "Paraent"
+    }
+  }
+}

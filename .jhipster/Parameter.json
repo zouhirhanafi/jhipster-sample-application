@@ -1,0 +1,65 @@
+{
+  "name": "Parameter",
+  "fields": [
+    {
+      "fieldName": "label",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activated",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lib2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lib3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "refExterne",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "val1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "val2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "val3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ordre",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "parameter",
+      "otherEntityRelationshipName": "parameter",
+      "relationshipName": "type"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "parameter",
+      "otherEntityRelationshipName": "parameter",
+      "relationshipName": "paraent"
+    }
+  ],
+  "entityTableName": "parameter",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211120064710"
+}

@@ -1,0 +1,34 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "parameter": {
+      "home": {
+        "title": "Parameters",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Parameter",
+        "createOrEditLabel": "Créer ou éditer un Parameter",
+        "notFound": "Aucun Parameter trouvé"
+      },
+      "created": "Un nouveau Parameter a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Parameter avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Parameter avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Parameter {{ id }} ?"
+      },
+      "detail": {
+        "title": "Parameter"
+      },
+      "id": "ID",
+      "label": "Label",
+      "activated": "Activated",
+      "lib2": "Lib 2",
+      "lib3": "Lib 3",
+      "refExterne": "Ref Externe",
+      "val1": "Val 1",
+      "val2": "Val 2",
+      "val3": "Val 3",
+      "ordre": "Ordre",
+      "type": "Type",
+      "paraent": "Paraent"
+    }
+  }
+}

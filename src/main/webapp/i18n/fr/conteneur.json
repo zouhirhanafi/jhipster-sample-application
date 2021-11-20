@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "conteneur": {
+      "home": {
+        "title": "Conteneurs",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Conteneur",
+        "createOrEditLabel": "Créer ou éditer un Conteneur",
+        "notFound": "Aucun Conteneur trouvé"
+      },
+      "created": "Un nouveau Conteneur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Conteneur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Conteneur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Conteneur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Conteneur"
+      },
+      "id": "ID",
+      "statut": "Statut",
+      "dateEntree": "Date Entree",
+      "dateSortie": "Date Sortie",
+      "zone": "Zone",
+      "ligne": "Ligne",
+      "colonne": "Colonne",
+      "commentaire": "Commentaire"
+    }
+  }
+}
